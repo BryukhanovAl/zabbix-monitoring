@@ -81,7 +81,7 @@
 #### Требования к результаты 
 1. Приложите в файл README.md скриншот раздела Latest Data, где видно свободное место на диске C:
 #### Ответ:
-![Скриншот-2](https://github.com/Monooks/syshomework_9.02/blob/main/img/9.02_5.png)
+![Скриншот-5](https://github.com/Monooks/syshomework_9.02/blob/main/img/9.02_5.png)
 --- 
 
 ## Критерии оценки
