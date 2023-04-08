@@ -38,20 +38,10 @@
 
 #### Ответ:
 ![Скриншот-1](https://github.com/Monooks/syshomework_9.02/blob/main/img/9.02_1.png)
-1. sudo apt update
-2. sudo apt install postgresql
-3. systemctl status postgresql
-4. wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-4+debian11_all.deb
-5. sudo dpkg -i zabbix-release_6.0-4+debian11_all.deb
-6. sudo apt update
-7. sudo apt install zabbix-server-pgsql zabbix-frontend-php php7.4-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
-8. systemctl status zabbix-server.service
-9. sudo -u postgres createuser --pwprompt zabbix
-10. sudo -u postgres createdb -O zabbix zabbix
-11. zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
-12. sudo nano /etc/zabbix/zabbix_server.conf
-13. sudo systemctl restart zabbix-server apache2 # zabbix-agent
-14. sudo systemctl enable zabbix-server apache2 # zabbix-agent
+1. git add .
+2. git commit -m 'make HW task1'
+3. git push origin
+
 ---
 
 ### Задание 2 
@@ -74,6 +64,10 @@
 ![Скриншот-2](https://github.com/Monooks/syshomework_9.02/blob/main/img/9.02_2.png)
 ![Скриншот-3](https://github.com/Monooks/syshomework_9.02/blob/main/img/9.02_3.png)
 ![Скриншот-4](https://github.com/Monooks/syshomework_9.02/blob/main/img/9.02_4.png)
+1. git add .
+2. git commit -m 'make HW task2'
+3. git push origin
+
 ---
 ## Задание 3 со звёздочкой*
 Установите Zabbix Agent на Windows (компьютер) и подключите его к серверу Zabbix.
