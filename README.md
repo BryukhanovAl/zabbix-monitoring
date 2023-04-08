@@ -37,7 +37,7 @@
 2. Приложите в файл README.md текст использованных команд в GitHub
 
 #### Ответ:
-![Скриншот-1](https://github.com/Monooks/syshomework901/blob/main/img/1.png)
+![Скриншот-1](https://github.com/Monooks/syshomework_9.02/blob/main/img/1.png)
 1. sudo apt update
 2. sudo apt install postgresql
 3. systemctl status postgresql
